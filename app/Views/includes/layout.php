@@ -12,14 +12,14 @@
     <title><?= $this->renderSection('pageTitle') ?></title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo base_url('front/vendor/bootstrap/css/bootstrap.min.css') ?>" rel="stylesheet">
 
 
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/templatemo-edu-meeting.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
-    <link rel="stylesheet" href="assets/css/lightbox.css">
+    <link rel="stylesheet" href="<?php echo base_url('front/assets/css/fontawesome.css') ?>">
+    <link rel="stylesheet" href="<?php echo base_url('front/assets/css/templatemo-edu-meeting.css') ?>">
+    <link rel="stylesheet" href="<?php echo base_url('front/assets/css/owl.css') ?>">
+    <link rel="stylesheet" href="<?php echo base_url('front/assets/css/lightbox.css') ?>">
 <!--
 
 
@@ -40,16 +40,16 @@
 
   <!-- Scripts -->
   <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="<?php echo base_url('front/vendor/jquery/jquery.min.js') ?>"></script>
+    <script src="<?php echo base_url('front/vendor/bootstrap/js/bootstrap.bundle.min.js' )?>"></script>
 
-    <script src="assets/js/isotope.min.js"></script>
-    <script src="assets/js/owl-carousel.js"></script>
-    <script src="assets/js/lightbox.js"></script>
-    <script src="assets/js/tabs.js"></script>
-    <script src="assets/js/video.js"></script>
-    <script src="assets/js/slick-slider.js"></script>
-    <script src="assets/js/custom.js"></script>
+    <script src="<?php echo base_url('front/assets/js/isotope.min.js' )?>"></script>
+    <script src="<?php echo base_url('front/assets/js/owl-carousel.js' )?>"></script>>
+    <script src="<?php echo base_url('front/assets/js/lightbox.js' )?>"></script>
+    <script src="<?php echo base_url('front/assets/js/tabs.js' )?>"></script>
+    <script src="<?php echo base_url('front/assets/js/video.js' )?>"></script>
+    <script src="<?php echo base_url('front/assets/js/slick-slider.js' )?>"></script>>
+    <script src="<?php echo base_url('front/assets/js/custom.js' )?>"></script>
     <script>
         //according to loftblog tut
         $('.nav li:first').addClass('active');
